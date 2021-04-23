@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/Order"
+        android:enabled="true"
+        android:title=""
+        android:icon="@drawable/order"
+        app:strokeColor="#c1bdc1"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/GoOut"
+        android:enabled="true"
+        android:icon="@drawable/goout"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/Pro"
+        android:enabled="true"
+        android:icon="@drawable/pro"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/Nutrition"
+        android:enabled="true"
+        android:icon="@drawable/nutrition"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/Donate"
+        android:enabled="true"
+        android:icon="@drawable/donate"
+        tools:ignore="MenuTitle" />
+</menu>
